@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class Camera_MoveMent : MonoBehaviour
 {
+    [SerializeField] GameObject player;
+    [SerializeField] float moveSpeed;
+    [SerializeField] float rotateSpeed;
+
     // Start is called before the first frame update
     void Start()
     {
